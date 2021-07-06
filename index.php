@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ben Chatwin</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  <!-- Bulma Version 0.9.0-->
+  <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+</head>
+
+<body>
+  <!-- Navigation bar -->
+  <!-- <nav class="navbar is-link is-fixed-top">
+    <div class="navbar-brand">
+      <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#services">
+          <span class="icon">
+            <i class="fas fa-bars"></i>
+          </span>
+          <span>Services</span>
+        </a>
+        <a class="navbar-item" href="#resume">
+          <span class="icon">
+            <i class="fas fa-file-alt"></i>
+          </span>
+          <span>Resume</span>
+        </a>
+        <a class="navbar-item" href="#contact">
+          <span class="icon">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <span>Contact</span>
+        </a>
+      </div>
+    </div>
+  </nav> -->
+
+  <!-- Header -->
+  <section class="hero is-link is-fullheight is-fullheight-with-navbar">
+    <div class="hero-body">
+      <div class="container">Hello! I am
+        <h1 class="title is-1">
+          Ben
+        </h1>
+        <h2 class="subtitle is-3">
+          Business consultant / Fullstack Developer / Tech Enthusiast
+        </h2>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="services">
+    <div class="section-heading is-align-items-center">
+      <h3 class="title is-2">Services</h3>
+      <h4 class="subtitle is-5">What can I do for you?</h4>
+    </div>
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <div class="box">
+            <div class="content">
+              <h4 class="title is-5">Startup Consulting</h4>
+              I can help your team identify the best value propositions and ensure the most effective execution. 
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <div class="content">
+              <h4 class="title is-5">Communication consulting</h4>
+              After working within the telecommunications industry for several years I know how the best companies implement their communication stack. 
+              There is a reason CaaS (Communications as a service) exists.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="columns">
+        <div class="column">
+          <div class="box">
+            <div class="content">
+              <h4 class="title is-5">Fullstack Web Development</h4>
+              I have a good basic understanding of modern web-development and can create functional and great looking MVPs.
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <div class="content">
+              <h4 class="title is-5">Networking and Capital Raises</h4>
+              I have deep network across multiple industries and have helped several companies raise more than USD 2 million.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p>
+                <a href="https://www.linkedin.com/in/ben-chatwin/">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                    <a href="https://twitter.com/Ben_g_chatwin">
+                        <i class="fab fa-twitter-square fa-2x"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+// Get all "navbar-burger" elements
+const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+// Check if there are any navbar burgers
+if ($navbarBurgers.length > 0) {
+
+  // Add a click event on each of them
+  $navbarBurgers.forEach( el => {
+    el.addEventListener('click', () => {
+
+      // Get the target from the "data-target" attribute
+      const target = el.dataset.target;
+      const $target = document.getElementById(target);
+
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      el.classList.toggle('is-active');
+      $target.classList.toggle('is-active');
+
+    });
+  });
+}
+
+});
+</script>
+
+</html>
