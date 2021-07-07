@@ -61,17 +61,20 @@
     </div>
   </section>
   <section class="section" id="services">
-    <div class="section-heading is-align-items-center">
+    <div class="container">
+    <div class="section-heading is-align-items-center mb-2">
       <h3 class="title is-2">Services</h3>
       <h4 class="subtitle is-5">What can I do for you?</h4>
     </div>
-    <div class="container">
       <div class="columns">
         <div class="column">
           <div class="box">
             <div class="content">
               <h4 class="title is-5">Startup Consulting</h4>
-              I can help your team identify the best value propositions and ensure the most effective execution. 
+              I can help your team identify the best value propositions and connect these with the most important tasks to achieve initial traction. 
+              The technologies I have worked with together with my clients included AI, Blockchain, 
+              Drones and a range of Cloud services (yes I am well aware these are buzzwords).
+
             </div>
           </div>
         </div>
@@ -80,18 +83,39 @@
             <div class="content">
               <h4 class="title is-5">Communication consulting</h4>
               After working within the telecommunications industry for several years I know how the best companies implement their communication stack. 
-              There is a reason CaaS (Communications as a service) exists.
+              There is a reason CaaS (Communications as a service) exists and I can help your team implement solutions that benefit you and your customers.
             </div>
           </div>
         </div>
       </div>
-
+      <div class="columns">
+        <div class="column">
+          <div class="box">
+            <div class="content">
+              <h4 class="title is-5">Project Management</h4>
+              Having worked on several large projects often with international teams, I understand, cherish and can help your team develop 
+              realistic timelines, clear objectives that are strategically aligned and ensure these meet quality controls.
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box">
+            <div class="content">
+              <h4 class="title is-5">Team building and Ideation sessions</h4>
+              This is something I am very passionate about and wish I could spend more time with. 
+              I have worked with very different teams ranging from humanitarian organisations in Lesotho to cutting-edge technology teams in Sweden. 
+              Whilst I very believe in execution towards goals I also value creativity as a means to solve problems.
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="columns">
         <div class="column">
           <div class="box">
             <div class="content">
               <h4 class="title is-5">Fullstack Web Development</h4>
-              I have a good basic understanding of modern web-development and can create functional and great looking MVPs.
+              I have a good basic understanding of modern web-development and can create functional and great looking MVPs. 
+              The specific technologies I am familiar with are: MySQL, MongoDB, CSS frameworks, PHP, Python, Node, React and Solidity.
             </div>
           </div>
         </div>
@@ -99,7 +123,8 @@
           <div class="box">
             <div class="content">
               <h4 class="title is-5">Networking and Capital Raises</h4>
-              I have deep network across multiple industries and have helped several companies raise more than USD 2 million.
+              I have a deep network across multiple industries and have helped several companies raise more than USD 2 million. 
+              I believe that capital contributions always need to be a side effect of genuine partnership.
             </div>
           </div>
         </div>
