@@ -73,7 +73,7 @@
               <h4 class="title is-5">Startup Consulting</h4>
               I can help your team identify the best value propositions and connect these with the most important tasks to achieve initial traction. 
               The technologies I have worked with together with my clients included AI, Blockchain, 
-              Drones and a range of Cloud services (yes I am well aware these are buzzwords).
+              Drones and a range of Cloud services (<i>yes I am well aware these are buzzwords</i>).
 
             </div>
           </div>
